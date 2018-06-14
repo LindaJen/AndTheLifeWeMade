@@ -21,7 +21,7 @@ h1 {
 
 
 body {
-    //background-image: url("Euca.jpg");
+    
 	font-family: 'BasicFixed-Regular';
 	margin-left: 70px;
 	margin-right: 35px;
@@ -172,7 +172,7 @@ text-align:left;
 }
 
 .back{
-	//background-image: url("brick.jpg");
+	
 	width: 100vw;
 	height: 100vh; 
 	background-size: 100% 100%;
