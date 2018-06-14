@@ -105,7 +105,9 @@
 
 <script>
 function messWithMom() {
-    alert("You clicked the button!! :) ");
+	var alertList = ["Don't do that.", "Stop", "Hey there!", "Yep, it's a button", "If you click it again I might say something different", "Hello World!", "Dare you to click it again", "This is getting tiring, don't you think?", "Are you doing your homework?", "LOL how many times are you going to press this?"];
+	var rand = alertList[(Math.floor(Math.random() * alertList.length))];
+    alert(rand);
 }
 </script>
 
