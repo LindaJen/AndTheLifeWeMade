@@ -108,14 +108,14 @@ html{
 .leftPadded{
 	border: 5px solid #3B9D4E;
     padding: 30px;
-	margin-top: 35px;
+	margin-top: 15px;
 	height:100%;
 	font-family: 'BasicFixed-Regular';
 	overflow: auto;
 }
 
 .right{
-	margin-top: 35px;
+	margin-top: 15px;
 	float:right;
 	width: 370px;
 	
