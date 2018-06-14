@@ -49,63 +49,76 @@
 
 </div>
 
-<div class="back">
-<button class= "button1" onclick="messWithMom()" > <mark class = "white">Hey what's up</mark></button>
+<div>
+	
+	<div class="right">
+		<div class="paddedBox">
+			<p class = "AboutUs">About Us
+					<img class = "aboutUsImg" src="snow1.JPG" alt="Japanese Monkeys">
+				<p class= "AboutUsText">A bunch of Cali beach bums thrown into a life abroad. We"ve lived the past 4 years in Singapore, and have travelled (combined between us) to over 22 countries. Travel guides at heart, we experience different cultures, enjoy new foods, and explore the great outdoors as much as possible. We've got our family, our faith, and the life we made.
+				</p>
+			
+			<a href= "https://www.instagram.com/alison_jen/"  target="_blank"> <button class= "fa fa-instagram" style = "background-color: #bc2a8d;
+						color: white;
+						border: 1px solid #bc2a8d;
+						border-radius:50%;
+						font-size: 30px;
+						width: 40px;
+						height: 40px;
+						text-decoration: none;
+						cursor: pointer;
+						text-align: center;">
+			</button></a>
+			
+			<a href= "https://www.pinterest.com/alisonjen/?eq=alison&etslf=2800"  target="_blank"> <button class= "fa fa-pinterest" style = "background-color: #cb2027;
+						color: white;
+						border: 1px solid #cb2027;
+						border-radius:50%;
+						font-size: 30px;
+						width: 40px;
+						height: 40px;
+						text-decoration: none;
+						cursor: pointer;
+						text-align: center;">
+			</button></a>
+			
+			
+			
+			<a href= ""  target="_blank"> <button class= "fa fa-facebook" style = "background-color: #3b5998;
+						color: white;
+						border: 1px solid #3b5998;
+						border-radius:50%;
+						font-size: 30px;
+						width: 40px;
+						height: 40px;
+						text-decoration: none;
+						cursor: pointer;
+						text-align: center;">
+			</button></a>
+			
+			</p>
+		</div>
+	</div>
 
+	<div class="left">
+		<div class= "leftPadded">
+			<p>
+			
+			<button class= "button1" onclick="messWithMom()" > <mark class = "white">Hey what's up</mark></button>
+			This button is inside the padded div. This padded div changes size based on its contents. 
+			
+			
+			</p>
+		</div>
 
-<!-- <div class= "animatedBox"></div> -->
-
-<div class="paddedBox">
-	<p class = "AboutUs">About Us
-	<img class = "aboutUsImg" src="snow1.JPG" alt="Japanese Monkeys">
-	<p class= "AboutUsText">A bunch of Cali beach bums thrown into a life abroad. We"ve lived the past 4 years in Singapore, and have travelled (combined between us) to over 22 countries. Travel guides at heart, we experience different cultures, enjoy new foods, and explore the great outdoors as much as possible. We've got our family, our faith, and the life we made.
-	</p>
-	
-	<a href= "https://www.instagram.com/alison_jen/"  target="_blank"> <button class= "fa fa-instagram" style = "background-color: #bc2a8d;
-				color: white;
-				border: 1px solid #bc2a8d;
-				border-radius:50%;
-				font-size: 30px;
-				width: 40px;
-				height: 40px;
-				text-decoration: none;
-				text-align: center;">
-	</button></a>
-	
-	<a href= "https://www.pinterest.com/alisonjen/?eq=alison&etslf=2800"  target="_blank"> <button class= "fa fa-pinterest" style = "background-color: #cb2027;
-				color: white;
-				border: 1px solid #cb2027;
-				border-radius:50%;
-				font-size: 30px;
-				width: 40px;
-				height: 40px;
-				text-decoration: none;
-				text-align: center;">
-	</button></a>
-	
-	
-	
-	<a href= ""  target="_blank"> <button class= "fa fa-facebook" style = "background-color: #3b5998;
-				color: white;
-				border: 1px solid #3b5998;
-				border-radius:50%;
-				font-size: 30px;
-				width: 40px;
-				height: 40px;
-				text-decoration: none;
-				text-align: center;">
-	</button></a>
-	
-	</p>
-</div>
-
+	</div>
 
 </div>
 
 
 <script>
 function messWithMom() {
-	var alertList = ["Don't do that.", "Stop", "Hey there!", "Yep, it's a button", "If you click it again I might say something different", "Hello World!", "Dare you to click it again", "This is getting tiring, don't you think?", "Are you doing your homework?", "LOL how many times are you going to press this?"];
+	var alertList = ["Don't do that.", "Stop", "Hey there!", "2018 has all been the Truman Show", "Yep, it's a button", "If you click it again I might say something different", "Hello World!", "Dare you to click it again", "This is getting tiring, don't you think?", "Are you doing your homework?", "LOL how many times are you going to press this?"];
 	var rand = alertList[(Math.floor(Math.random() * alertList.length))];
     alert(rand);
 }
