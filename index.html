@@ -27,7 +27,7 @@
 	  <a href="#"><mark class="white">Australasia</mark></a>
 	  <a href="#"><mark class="white">South America</mark></a>
 	  <a href="#"><mark class="white">Europe</mark></a>
-	  <a href="#"><mark class="white">North America</mark></a>
+	  <a href="#"><mark class="white" >North America</mark></a>
     </div>
   </div> 
  <div class="dropdown">
@@ -45,7 +45,20 @@
   </div> 
  <a href=""><mark class="green">Health and Wellness</mark></a>
  <a href=""><mark class="green">The Seamster</mark></a>
-  <a href=""><mark class="green">Miscellaneous</mark></a>
+  <div class="dropdown">
+    <button class="dropbtn"><mark class="green" style="font-family: 'Code';">Miscellaneous</mark>
+      <i class="fa fa-caret-down"></i>
+	  
+    </button>
+    <div class="dropdown-content">
+      <a href="#"><mark class="white" style="font-family: 'Code';">Paul</mark></a>
+      <a href="#"><mark class="white" style="font-family: 'Code';">Alison</mark></a>
+      <a href="#"><mark class="white" style="font-family: 'Code';">Ayden</mark></a>
+	  <a href="#"><mark class="white" style="font-family: 'Code';">Arien</mark></a>
+	  <a href="#"><mark class="white" style="font-family: 'Code';">Leo</mark></a>
+	  <a href="#"><mark class="white" style="font-family: 'Code';">Linda</mark></a>
+    </div>
+  </div> 
 
 </div>
 
@@ -55,7 +68,7 @@
 		<div class="paddedBox">
 			<p class = "AboutUs">About Us
 					<img class = "aboutUsImg" src="snow1.JPG" alt="Japanese Monkeys">
-				<p class= "AboutUsText">A bunch of Cali beach bums thrown into a life abroad. We"ve lived the past 4 years in Singapore, and have travelled (combined between us) to over 22 countries. Travel guides at heart, we experience different cultures, enjoy new foods, and explore the great outdoors as much as possible. We've got our family, our faith, and the life we made.
+				<p class= "AboutUsText">A bunch of Cali beach bums thrown into a life abroad. We've lived the past 4 years in Singapore, and have travelled (combined between us) to over 22 countries. Travel guides at heart, we experience different cultures, enjoy new foods, and explore the great outdoors as much as possible. We've got our family, our faith, and the life we made.
 				</p>
 			
 			<a href= "https://www.instagram.com/alison_jen/"  target="_blank"> <button class= "fa fa-instagram" style = "background-color: #bc2a8d;
@@ -105,7 +118,8 @@
 			<p>
 			
 			<button class= "button1" onclick="messWithMom()" > <mark class = "white">Hey what's up</mark></button>
-			This button is inside the padded div. This padded div changes size based on its contents. 
+			
+			<button class= "button1" onclick="salad()" > <mark class = "white">Click for an earth-shattering truth</mark></button>
 			
 			
 			</p>
@@ -121,6 +135,9 @@ function messWithMom() {
 	var alertList = ["Don't do that.", "Stop", "Hey there!", "2018 has all been the Truman Show", "Yep, it's a button", "If you click it again I might say something different", "Hello World!", "Dare you to click it again", "This is getting tiring, don't you think?", "Are you doing your homework?", "LOL how many times are you going to press this?"];
 	var rand = alertList[(Math.floor(Math.random() * alertList.length))];
     alert(rand);
+}
+function salad() {
+    alert("Salad is a social construct" );
 }
 </script>
 
