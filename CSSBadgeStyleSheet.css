@@ -129,7 +129,18 @@ html{
     #rightDynamic {
         display: none;
     }
+	
+	#aboutUsButton {
+		display:block !important;
+		overflow: hidden !important;
+		background-color: #3B9D4E !important;
+		font-family: 'BasicFixed-Regular' !important;
+	}
 }
+
+#aboutUsButton {
+		display:none;
+	}
 
 .button1 {
 	position: relative;
