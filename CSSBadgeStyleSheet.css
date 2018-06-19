@@ -10,16 +10,20 @@
 }
 
 h1 {
-    //color: #8C8787;
 	color: #3B9D4E;
 	font: 50px Didot, serif;
 	margin: auto;
 	background-color: white;
 	font-family: 'BasicFixed-Regular';
-    //width: 60%;
 }
 
-
+.head{
+	color: #3B9D4E;
+	font: 50px Didot, serif;
+	margin: auto;
+	background-color: white;
+	font-family: 'BasicFixed-Regular';
+}
 
 body {
     
