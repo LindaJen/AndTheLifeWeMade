@@ -101,35 +101,7 @@ text-align:left;
 	font-family: 'BasicFixed-Regular';
 }
 
-.animatedBox {
-	width: 100px;
-   height: 100px;
-    background-color: red;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
 
-@-webkit-keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
 html{
 	height:100%;
 	overflow: auto;
@@ -283,7 +255,7 @@ html{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -304,7 +276,7 @@ html{
 }
 
 .paddedBox {
-	background-color: #FEFEFE;
+	background-color: #ffffff;
     width: 300px;
     border: 5px solid #3B9D4E;
     padding: 30px;
