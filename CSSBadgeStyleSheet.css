@@ -78,9 +78,7 @@ text-align:left;
 .aboutUsImg{
  width:328px;
    position: relative;
-   
 	 left: 50%;
-  
 	transform: translate(-50%);
 	
 }
