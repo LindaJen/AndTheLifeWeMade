@@ -95,12 +95,15 @@
 			<p>
 			
 			<button class= "button1" onclick="messWithMom()" > <mark class = "white">Hey what's up</mark></button><br><br><br>
-			<button class= "emojiButton" onclick="salad()" ><i class="em em-horse"></i></button><br><br><br>
-			<form>
+			<button class= "emojiButton" onclick="salad()" ><i class="em em-horse"></i></button><br><br><br><br>
+			
 				  Cost of Item:<br>
-				  <span class="currencyinput">$<input type="number" name="cost"></span>
-				  <input type="submit" value="Submit">
-			</form>
+				  <div><span class="currencyinput">$<input type="number" id = "cost" ></span></div>
+				  <button class = "button2" id= "submitCost" onclick = "calculateFromZ()">Submit</button><br><br>
+			
+			<span>Linda's Contribution: $<span id = "child"></span> </span><br><br>
+			<span>Dad's Contribution: $<span id = "father"></span> </span> <br><br>
+			<div class = "message" id = "messageForDad"></div>
 			
 			</p>
 		</div>
@@ -115,6 +118,31 @@ function messWithMom() {
 function salad() {
     alert("Salad is a social construct" );
 }
+
+function calculateFromZ(){
+var cost =  document.getElementById("cost").value;
+var child = cost/11;
+var dad = (10*cost)/11;
+<!-- document.dadOut.me.value = dad; -->
+var tempChild = document.getElementById('child');
+var tempFather = document.getElementById('father');
+tempChild.innerHTML = child;
+tempFather.innerHTML = dad;
+document.getElementById("messageForDad").style.display = "block";
+var tempMessage = document.getElementById("messageForDad");
+tempMessage.innerHTML = "It's too late! I already ordered it, and it was actually $130 off of retail! But this is good practice for coding HTML and CSS- thanks :) If you want to see the code, right-click and hit inspect to see it! ";
+<!-- document.dadOut.father.value = child; -->
+}
+
+document.getElementById("cost")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("submitCost").click();
+    }
+});
+
+
 </script>
 </body>
 </html>

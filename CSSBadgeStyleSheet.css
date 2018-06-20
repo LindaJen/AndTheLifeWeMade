@@ -9,6 +9,18 @@
      
 }
 
+.message{
+	background-color: #3B9D4E;
+   
+    border: 2px solid #3B9D4E;
+    padding: 10px;
+	display:none;
+	
+	font-family: 'BasicFixed-Regular';
+	font-size: 25px;
+	color: #ffffff;
+}
+
 h1 {
 	color: #3B9D4E;
 	font: 50px Didot, serif;
@@ -21,7 +33,7 @@ h1 {
     border: 2px solid #3B9D4E;
 	padding: 2px;
 }
-.currencyinput input {
+.currencyinput input{
 	
     border: 0;
 	font-family: 'BasicFixed-Regular';
@@ -34,6 +46,7 @@ h1 {
 input[type="number"] {
     font-size:20px;
 }
+
 
 input[type=submit] { 
     background:#ffffff; 
@@ -160,6 +173,27 @@ html{
 
 .button1:hover {
     background-image: url("Euca.jpg");
+}
+
+.button2{
+	position: relative;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #3B9D4E;
+	float: left;
+	padding: 2px;
+	font-size: 22px;
+	font-family: 'BasicFixed-Regular';
+	cursor: pointer;
+	display:inline-block;
+}
+
+.button2:hover {
+    background-image: url("Euca.jpg");
+}
+
+.button2:focus {
+	outline: none;
 }
 
 .emojiButton{
