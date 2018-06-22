@@ -11,11 +11,9 @@
 
 .message{
 	background-color: #FF1A58;
-   
     border: 2px solid #FF1A58;
     padding: 10px;
 	display:none;
-	
 	font-family: 'BasicFixed-Regular';
 	font-size: 25px;
 	color: #ffffff;
